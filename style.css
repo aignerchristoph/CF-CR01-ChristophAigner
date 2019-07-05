@@ -1,21 +1,24 @@
 header {
 	background-color: #EDEDED;
 	width: auto;
+	height: auto;
 	margin: 0;
 	overflow: hidden
 }
 
+
 #headertext {
+	float: left;
 	position: absolute;
-	padding-top: 70px;
+	padding-top: 39px;
 	text-align: left;
 
 }
 
-nav li {
+li {
 	display: inline-block;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	list-style-type: none;
+	padding: 1em;
 	color: white;
 	font-weight: bold;
 }
@@ -23,47 +26,72 @@ li a {
 	display: block;
 	color: white;
 	text-decoration: none;
-	padding: 10px;
+
+}
+h2 {
+	width: 600px;
 }
 
 nav {
-	overflow: hidden;
+	
 	margin-top: 0;
 	margin-left: 0;
-	background-color: #643D3C
+	background-color: #653D3D
 }
-
-article img {
-	position: relative;
-	height: 200px;
-	width: auto; 
+h1 {
+	font-size: 4em;
+	text-align: center;
 }
-
 #posts {
 	padding: 1em;
-	background-color: #968483;
+	background-color: #988484;
 	color: white;
 	height: 1em;
 }
 
-h1 {
-	font-size: 3em;
-	text-align: center;
+article img {
+	height: 100%; 
+	width: 100%
 }
+
 article {
-margin:0 1% 1% 0;
+margin-top:1em;
 float:left;
-clear:none;
-width:48%;
-height:300px;
-border:2px solid #808080;
+overflow: auto;
+width:46%;
+height: 20%;
 }
 
-#line {
-	margin-bottom: 10px;
-	position: absolute;
-	background-color:  #643D3C;
-	height: 5px;
+article p {
+	text-align: left;
 }
 
-footer {text-align: center}
+.left {
+	margin-left: 0%;
+	margin-right:8%; 
+}
+
+.right {
+	margin-right: 0%; 
+}
+
+
+p {
+	text-align: center
+}
+
+footer {
+	text-align: center}
+
+
+#footimg {
+
+  	display: block;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+
+
