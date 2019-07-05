@@ -8,7 +8,7 @@
 <body>
 	<header id="header">
 		<img src="img/codefactory-vienna-logo.png" alt="Code Factory">
-			<span>
+			<span id="headertext">
 				Christoph Aigner - I am a future Full Stack Developer
 			</span>
 	</header><!-- /header -->
@@ -16,46 +16,52 @@
 	<nav>
 		<ul>
 			<li><a href="#Home" title="Home">HOME</a></li>
-			<li><a href="#About Me">ABOUT ME</a></li>
-			<li><a href="#Blog">BLOG</a></li>
-			<li><a href="Contact">CONTACT</a></li>
+			<li><a href="#About Me" title="About Me">ABOUT ME</a></li>
+			<li><a href="#Blog" title="Blog">BLOG</a></li>
+			<li><a href="Contact" title="Contact">CONTACT</a></li>
 		</ul>
 	</nav>
 	
 	<div>
-		<h1>This is my first website :)</h1>
+		<h1>This is my first <br> website :)</h1>
 	</div>
 	
 	<main>
-		<div>
+		<div id="posts">
 			LATEST BLOG POSTS
 		</div>
 		
-		<article>
-			<img src="img/Phone.png" alt="phone">	
-			Location marketing platform Uberall raises further $25M and acquires competitor Navads
+		<article class="left">
+			<img src="img/Phone.png" alt="phone">
+			<div>
+				Location marketing platform Uberall raises further $25M and acquires competitor Navads
+			</div>
+			
 		</article>	
 		
-		<article>
+		<article class="right">
 			<img src="img/Taxify-Scooters.jpg" alt="Scooter">
-			Taxify is entering the e-scooter game
+			<div>Taxify is entering the e-scooter game</div>
 		</article>
 
-		<article>
+		<article class="left">
 			<img src="img/Devices.jpg" alt="Devices">
-			Livongo Health expands under new offering with Abbott Labs
+			<div>Livongo Health expands under new offering with Abbott Labs</div>
 		</article>
 		
-		<article>
+		<article class="right">
 			<img src="img/Debit_card_ATM.jpg" alt="Debit">
+			<div>European banking app Monese scores $60M Series B led by Kinnevik</div>
 		</article>
 
 
 	</main>
 
 	<footer>
+		<div id="line">
+		</div>
 		<img src="img/codefactory-vienna-logo.png" alt="Code Factory">
-		Christoph Aigner - CodeFactory 2019
+		<p>Christoph Aigner - CodeFactory 2019</p>
 	</footer>
 
 </body>
