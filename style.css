@@ -23,14 +23,17 @@ body {
 }
 
 #headertext {
-	font-size: 1.5em;
+	font-size: 18px;
 	float: left;
 	margin-top: 0;
 	width: 59%;
-	height: 150px;
+	height: 85px;
 	position: relative;
-	padding-top: 60px
+	padding-top: 65px;
+	font-weight: bold;
 }
+/*till here is everything for the header and font for the body*/
+
 
 li {
 	display: inline-block;
@@ -57,10 +60,14 @@ ul {
 	background-color: #653D3D
 }
 
+/*till here is for the nav bar */
+
+
 h1 {
 	font-size: 4em;
 	text-align: center;
 }
+/*big Heading in the middle*/
 
 #posts {
 	padding: 1em;
@@ -69,7 +76,6 @@ h1 {
 	height: 1em;
 	font-weight: bold;
 }
-
 article img {
 	height: 100%; 
 	width: 100%
@@ -82,6 +88,11 @@ float:left;
 overflow: auto;
 width:46%;
 height: 20%;
+}
+
+article a {
+text-decoration: none;
+color: black;
 }
 
 article p {
@@ -97,7 +108,10 @@ article p {
 	margin-right: 0%; 
 }
 
+/*till here is for the blog posts*/
 
+
+/* and the rest down here is for the footer*/
 p {
 	text-align: center
 }
@@ -118,7 +132,6 @@ footer {
 	}
 
 #footimg {
-
   	display: block;
   	margin-top: 1em;
 	margin-left: auto;
