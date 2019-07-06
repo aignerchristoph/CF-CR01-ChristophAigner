@@ -5,6 +5,9 @@ header {
 	margin: 0;
 	overflow: hidden;
 }
+body {font-family: "Chivo", sans-serif;
+}
+
 #logo {
 	float: left;
 	width: 40%;
@@ -19,13 +22,13 @@ header {
 }
 
 #headertext {
-	font-size: 2em;
+	font-size: 1.5em;
 	float: left;
 	margin-top: 0;
 	width: 59%;
 	height: 150px;
 	position: relative;
-	padding-top: 70px
+	padding-top: 60px
 }
 
 
@@ -75,6 +78,7 @@ h1 {
 	background-color: #988484;
 	color: white;
 	height: 1em;
+	font-weight: bold;
 }
 
 article img {
@@ -83,6 +87,7 @@ article img {
 }
 
 article {
+font-weight: bold;
 margin-top:1em;
 float:left;
 overflow: auto;
